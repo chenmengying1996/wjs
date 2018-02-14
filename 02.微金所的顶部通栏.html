@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+   	<link rel="stylesheet" href="lib/css/bootstrap.css" />
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+    <!--导入自己的css-->
+    <link rel="stylesheet" href="css/base.css"/>
+    
+    <!--导入首页的css-->
+    <link rel="stylesheet" href="css/index.css"/>
+    
+    
+  </head>
+  <body>
+    
+    <div class="header hidden-md hidden-sm hidden-xs">
+    	<div class="container-fluid">
+    		<div class="row">
+    			<!--注意注意：建议不要直接把文字放在有图标class的标签元素内，bootstrap里面对于默认的图标 .glyphicon没有关于字体行高的设置，把文字放在那里面肯定会不和谐的，可以尝试把所需要的文字标签和图片标签同时放在一个具有字体行高样式的标签内-->
+    			<div class="col-lg-2"><a href="#"><span class="glyphicon glyphicon-phone"></span>手机微金所<span class="glyphicon glyphicon-chevron-down"></span></a><img src="img/code.jpg"></div>
+    			<div class="col-lg-5"><a href="#"><span class="glyphicon glyphicon-phone-alt"></span>4006-89-4006（服务时间：9:00-21:00)</a></div>
+    			<div class="col-lg-2"><a href="#">常见问题</a><a href="#">财富登陆</a></div>
+    			<div class="col-lg-3"><input type="button" class='btn btn-danger btn-xs' value='免费注册'><a href="#">登陆</a></div>
+    		</div>
+    	</div>
+    </div>
+
+  </body>
+</html>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="lib/js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="lib/js/bootstrap.min.js"></script>
